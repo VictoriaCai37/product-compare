@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta id="meta-desc" name="description" content="Loading...">
+  <title id="page-title">Loading…</title>
+  <link rel="canonical" id="canonical" href="">
+  <meta property="og:type" content="product">
+  <meta property="og:title" id="og-title" content="">
+  <meta property="og:description" id="og-desc" content="">
+  <meta property="og:image" id="og-img" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg">
+  <script id="ld-json" type="application/ld+json"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1 class="site-title">Product Compare</h1>
+      <span class="site-tagline">Smart Shopping Decisions</span>
+    </div>
+    <div class="topbar-right">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="#" class="nav-link">About</a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Categories</h2>
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Collapse sidebar">◀</button>
+      </div>
+      <nav class="sidebar-nav">
+        <ul id="sidebarCategories"></ul>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Data from <code>data/products.json</code> • <a href="https://github.com" target="_blank" rel="noopener">View Source</a></p>
+      </div>
+    </aside>
+
+    <div class="resize-handle" id="resizeHandle" aria-label="Resize sidebar"></div>
+
+    <main class="main-content" id="mainContent">
+      <article class="product-page" id="product-root"></article>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Product Compare. All rights reserved. | Data for reference only. Prices may vary.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>
+    initProductPage();
+  </script>
+</body>
+</html>

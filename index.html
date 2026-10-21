@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compare products side-by-side. Detailed specs, pros & cons, and trusted affiliate links to help you make smarter buying decisions.">
+  <title>Product Compare - Smart Shopping Decisions</title>
+  <link rel="canonical" href="https://your-domain.vercel.app">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Product Compare – Smart Shopping Decisions">
+  <meta property="og:description" content="Side-by-side product comparisons with detailed specs, pros & cons, and trusted affiliate links.">
+  <meta property="og:image" content="https://your-domain.vercel.app/assets/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="sitemap" href="sitemap.xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Product Compare",
+    "url": "https://your-domain.vercel.app/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://your-domain.vercel.app/compare.html?category={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1 class="site-title">Product Compare</h1>
+      <span class="site-tagline">Smart Shopping Decisions</span>
+    </div>
+    <div class="topbar-right">
+      <a href="compare.html?category=wireless-earbuds" class="nav-link">Earbuds</a>
+      <a href="compare.html?category=smartphones" class="nav-link">Phones</a>
+      <a href="compare.html?category=laptops" class="nav-link">Laptops</a>
+      <a href="#" class="nav-link">About</a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Categories</h2>
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Collapse sidebar">◀</button>
+      </div>
+      <nav class="sidebar-nav">
+        <ul id="sidebarCategories"></ul>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Data from <code>data/products.json</code> • <a href="https://github.com" target="_blank" rel="noopener">View Source</a></p>
+      </div>
+    </aside>
+
+    <div class="resize-handle" id="resizeHandle" aria-label="Resize sidebar"></div>
+
+    <main class="main-content" id="mainContent">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <h2 id="hero-title">Compare Products Side by Side</h2>
+        <p>Make informed decisions with detailed specifications, pros & cons, and real-time pricing from trusted retailers.</p>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-number" id="statCategories">0</span><span class="stat-label">Categories</span></div>
+          <div class="stat"><span class="stat-number" id="statProducts">0</span><span class="stat-label">Products</span></div>
+          <div class="stat"><span class="stat-number">100%</span><span class="stat-label">Unbiased</span></div>
+        </div>
+        <div class="hero-cta">
+          <a href="#comparisons" class="btn btn-primary btn-lg">Start Comparing</a>
+          <a href="#comparisons" class="btn btn-outline btn-lg">Browse Categories</a>
+        </div>
+      </section>
+
+      <section class="featured" id="comparisons" aria-labelledby="featured-title">
+        <h3 id="featured-title">Popular Comparisons</h3>
+        <div class="comparison-grid" id="comparisonGrid"></div>
+      </section>
+
+      <section class="cta">
+        <h3>Can't Find What You're Looking For?</h3>
+        <p>Request a comparison and we'll add it to our database.</p>
+        <a href="#" class="btn btn-primary">Request Comparison</a>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Product Compare. All rights reserved. | Data for reference only. Prices may vary.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>
+    initHomePage();
+  </script>
+</body>
+</html>
