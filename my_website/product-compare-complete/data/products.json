@@ -1,0 +1,151 @@
+{
+  "categories": [
+    {
+      "slug": "wireless-earbuds",
+      "name": "Wireless Earbuds",
+      "description": "Compare ANC earbuds: noise cancellation, battery life, codecs, and comfort.",
+      "products": [
+        {
+          "id": "sony-wf1000xm5",
+          "name": "Sony WF-1000XM5",
+          "price": 299,
+          "currency": "USD",
+          "image": "https://via.placeholder.com/400x400?text=WF-1000XM5",
+          "affiliateUrl": "https://amzn.to/your-affiliate-link",
+          "specs": {
+            "ANC Performance": "Excellent",
+            "Battery (with case)": "24h",
+            "Bluetooth": "5.3",
+            "Codecs": "LDAC, LC3, AAC, SBC",
+            "Weight (per bud)": "5.9g",
+            "Water Resistance": "IPX4"
+          },
+          "pros": ["Industry-leading noise cancellation", "LDAC high-res audio", "Multipoint connection", "Compact case"],
+          "cons": ["Case slightly thick", "IPX4 only", "No wireless charging"]
+        },
+        {
+          "id": "airpods-pro2",
+          "name": "Apple AirPods Pro 2",
+          "price": 249,
+          "currency": "USD",
+          "image": "https://via.placeholder.com/400x400?text=AirPods+Pro+2",
+          "affiliateUrl": "https://amzn.to/your-affiliate-link",
+          "specs": {
+            "ANC Performance": "Excellent",
+            "Battery (with case)": "30h",
+            "Bluetooth": "5.3",
+            "Codecs": "AAC, SBC",
+            "Weight (per bud)": "5.3g",
+            "Water Resistance": "IPX4"
+          },
+          "pros": ["Seamless Apple ecosystem", "Best transparency mode", "Precision Finding", "USB-C case"],
+          "cons": ["AAC only (no LDAC)", "Limited Android features", "No multipoint on Android"]
+        },
+        {
+          "id": "bose-qc-earbuds2",
+          "name": "Bose QuietComfort Earbuds II",
+          "price": 279,
+          "currency": "USD",
+          "image": "https://via.placeholder.com/400x400?text=QC+Earbuds+II",
+          "affiliateUrl": "https://amzn.to/your-affiliate-link",
+          "specs": {
+            "ANC Performance": "Excellent",
+            "Battery (with case)": "24h",
+            "Bluetooth": "5.3",
+            "Codecs": "AAC, SBC",
+            "Weight (per bud)": "6.2g",
+            "Water Resistance": "IPX4"
+          },
+          "pros": ["Exceptional ANC", "CustomTune calibration", "Comfortable fit kit", "Great call quality"],
+          "cons": ["Large case", "No multipoint", "No LDAC/aptX"]
+        }
+      ]
+    },
+    {
+      "slug": "smartphones",
+      "name": "Smartphones",
+      "description": "Flagship phones compared: camera, performance, battery, display.",
+      "products": [
+        {
+          "id": "iphone-15-pro",
+          "name": "iPhone 15 Pro",
+          "price": 999,
+          "currency": "USD",
+          "image": "https://via.placeholder.com/400x400?text=iPhone+15+Pro",
+          "affiliateUrl": "https://amzn.to/your-affiliate-link",
+          "specs": {
+            "Display": "6.1 inch 120Hz LTPO OLED",
+            "Chip": "A17 Pro",
+            "Main Camera": "48MP f/1.78",
+            "Battery": "23h video",
+            "Weight": "187g",
+            "Storage": "128GB/256GB/512GB/1TB"
+          },
+          "pros": ["Best video recording", "Titanium build", "Action Button", "USB-C 3.0"],
+          "cons": ["60Hz on base model", "Slow charging", "No periscope zoom"]
+        },
+        {
+          "id": "galaxy-s24-ultra",
+          "name": "Samsung Galaxy S24 Ultra",
+          "price": 1299,
+          "currency": "USD",
+          "image": "https://via.placeholder.com/400x400?text=S24+Ultra",
+          "affiliateUrl": "https://amzn.to/your-affiliate-link",
+          "specs": {
+            "Display": "6.8 inch 120Hz LTPO AMOLED",
+            "Chip": "Snapdragon 8 Gen 3",
+            "Main Camera": "200MP f/1.7",
+            "Battery": "30h video",
+            "Weight": "232g",
+            "Storage": "256GB/512GB/1TB"
+          },
+          "pros": ["100x Space Zoom", "S Pen included", "7 years updates", "Flat screen"],
+          "cons": ["Very expensive", "Heavy", "OneUI bloatware"]
+        }
+      ]
+    },
+    {
+      "slug": "laptops",
+      "name": "Laptops",
+      "description": "Ultraportables and creators laptops: CPU, screen, battery, portability.",
+      "products": [
+        {
+          "id": "macbook-air-m3",
+          "name": "MacBook Air 13 M3",
+          "price": 1099,
+          "currency": "USD",
+          "image": "https://via.placeholder.com/400x400?text=MacBook+Air+M3",
+          "affiliateUrl": "https://amzn.to/your-affiliate-link",
+          "specs": {
+            "CPU": "Apple M3 (8C/10C GPU)",
+            "Display": "13.6 inch 2560x1664",
+            "RAM": "8GB/16GB/24GB",
+            "Storage": "256GB-2TB",
+            "Battery": "18h web",
+            "Weight": "1.24kg"
+          },
+          "pros": ["Fanless silence", "Incredible battery", "Best trackpad", "Runs cool"],
+          "cons": ["Base 8GB RAM", "2 external displays only with lid closed", "Notch"]
+        },
+        {
+          "id": "dell-xps-14",
+          "name": "Dell XPS 14 (2024)",
+          "price": 1499,
+          "currency": "USD",
+          "image": "https://via.placeholder.com/400x400?text=XPS+14",
+          "affiliateUrl": "https://amzn.to/your-affiliate-link",
+          "specs": {
+            "CPU": "Core Ultra 7 155H",
+            "Display": "14.5 inch 3.2K OLED 120Hz",
+            "RAM": "16GB/32GB/64GB",
+            "Storage": "512GB-4TB",
+            "Battery": "10h web",
+            "Weight": "1.68kg"
+          },
+          "pros": ["Stunning OLED", "Great keyboard", "Good port selection", "Copilot key"],
+          "cons": ["Runs warm", "Average battery", "Expensive upgrades"]
+        }
+      ]
+    }
+  ]
+}

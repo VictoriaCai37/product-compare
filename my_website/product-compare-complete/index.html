@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Expert-tested product picks for students, professionals & international living. Independent reviews, no sponsorship influence.">
+  <title>GearLab – Expert Tested Product Picks</title>
+  <link rel="canonical" href="https://your-domain.vercel.app">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GearLab – Expert Tested Product Picks">
+  <meta property="og:description" content="Best wireless earbuds for students, laptops for college, dorm appliances for international students. Hands-on tested, independently picked.">
+  <meta property="og:image" content="https://your-domain.vercel.app/assets/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="sitemap" href="sitemap.xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "GearLab",
+    "url": "https://your-domain.vercel.app/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://your-domain.vercel.app/compare.html?category={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1 class="site-title">GearLab</h1>
+      <span class="site-tagline">Expert Tested • Independent</span>
+    </div>
+    <div class="topbar-right">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="compare.html?category=wireless-earbuds" class="nav-link">Compare</a>
+      <a href="#scenes" class="nav-link">Top Picks</a>
+      <a href="disclosure.html" class="nav-link">Disclosure</a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Categories</h2>
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Collapse sidebar">◀</button>
+      </div>
+      <nav class="sidebar-nav">
+        <ul id="sidebarCategories"></ul>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Data from <code>data/products.json</code> • <a href="https://github.com" target="_blank" rel="noopener">View Source</a></p>
+      </div>
+    </aside>
+
+    <div class="resize-handle" id="resizeHandle" aria-label="Resize sidebar"></div>
+
+    <main class="main-content" id="mainContent">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <h2 id="hero-title">Expert Tested Product Picks</h2>
+        <p>We buy, test, and rank products for real-world scenarios — students, exam prep, international living, home office. No free samples, no sponsored rankings.</p>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-number" id="statCategories">0</span><span class="stat-label">Categories</span></div>
+          <div class="stat"><span class="stat-number" id="statProducts">0</span><span class="stat-label">Products</span></div>
+          <div class="stat"><span class="stat-number">100%</span><span class="stat-label">Independent</span></div>
+        </div>
+        <div class="hero-cta">
+          <a href="#scenes" class="btn btn-primary btn-lg">View Top Picks</a>
+          <a href="#comparisons" class="btn btn-outline btn-lg">Browse Comparisons</a>
+        </div>
+      </section>
+
+      <section class="featured" id="comparisons" aria-labelledby="featured-title">
+        <h3 id="featured-title">Popular Comparisons</h3>
+        <div class="comparison-grid" id="comparisonGrid"></div>
+      </section>
+
+      <section class="scenes-index" id="scenes" aria-labelledby="scenes-title">
+        <h3 id="scenes-title">🎯 Expert Pick Lists</h3>
+        <div class="scenes-grid" id="scenesGrid"></div>
+      </section>
+
+      <section class="cta">
+        <h3>Can't Find What You're Looking For?</h3>
+        <p>Request a comparison and we'll add it to our database.</p>
+        <a href="#" class="btn btn-primary">Request Comparison</a>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 GearLab. All rights reserved. | Independent reviews. <a href="disclosure.html">Affiliate Disclosure</a></p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>
+    initHomePage();
+  </script>
+</body>
+</html>

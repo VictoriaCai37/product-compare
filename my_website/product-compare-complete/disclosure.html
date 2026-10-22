@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affiliate Disclosure | GearLab</title>
+  <meta name="description" content="GearLab affiliate disclosure. We earn commissions from qualifying purchases through Amazon Associates, Impact, and AliExpress Portals.">
+  <link rel="canonical" href="https://your-domain.vercel.app/disclosure.html">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <a href="index.html" class="site-title">GearLab</a>
+      <span class="site-tagline">Expert Tested • Independent</span>
+    </div>
+    <nav class="topbar-right">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="compare.html?category=wireless-earbuds" class="nav-link">Compare</a>
+      <a href="#scenes" class="nav-link">Top Picks</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Categories</h2>
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Collapse sidebar">◀</button>
+      </div>
+      <nav class="sidebar-nav">
+        <ul id="sidebarCategories"></ul>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Data from <code>data/products.json</code> • <a href="https://github.com" target="_blank" rel="noopener">View Source</a></p>
+      </div>
+    </aside>
+
+    <div class="resize-handle" id="resizeHandle" aria-label="Resize sidebar"></div>
+
+    <main class="main-content" id="mainContent" style="max-width: 800px; margin: 0 auto;">
+      <section class="page-header">
+        <h1>Affiliate Disclosure</h1>
+        <p class="lead">Transparency about how we fund this site.</p>
+      </section>
+
+      <article style="line-height: 1.8;">
+        <h2>How We're Funded</h2>
+        <p>GearLab is an independent review site. We purchase most products with our own funds for testing. To keep the site running without ads or paywalls, we participate in affiliate programs.</p>
+
+        <h2>Affiliate Programs We Use</h2>
+        <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+          <li><strong>Amazon Associates (US)</strong> — We earn from qualifying purchases on Amazon.com</li>
+          <li><strong>Impact (Brand Partnerships)</strong> — Direct partnerships with brands like Anker, Dreame, Roborock, Ninja, Philips Hue, and others</li>
+          <li><strong>AliExpress Portals</strong> — For budget-friendly international options</li>
+        </ul>
+
+        <h2>What This Means for You</h2>
+        <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+          <li>You pay the <strong>same price</strong> — commissions come from the retailer, not your pocket</li>
+          <li>We <strong>never accept free products</strong> in exchange for positive reviews</li>
+          <li>Our rankings are based on <strong>hands-on testing and data</strong>, not commission rates</li>
+          <li>Products scoring below our standards are <strong>excluded regardless of affiliate availability</strong></li>
+        </ul>
+
+        <h2>FTC Compliance</h2>
+        <p>In accordance with the Federal Trade Commission's guidelines on endorsements and testimonials, we disclose that we may earn a commission when you click links to retailers and make a purchase. This disclosure applies to all pages on this site.</p>
+
+        <h2>Editorial Independence</h2>
+        <p>Our testing methodology, scoring criteria, and pick selections are determined solely by our editorial team. Retailers and brands have <strong>zero influence</strong> on which products we test, how we score them, or which ones we recommend.</p>
+
+        <h2>Data & Price Accuracy</h2>
+        <p>Prices and availability are accurate as of the "Updated" date shown on each page. Prices can change without notice. We use automated APIs (Amazon PA-API, Impact) where possible, but always verify manually before publishing.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about our affiliate practices? <a href="mailto:disclosure@your-domain.com">Email us</a>.</p>
+      </article>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 GearLab. All rights reserved. | Independent reviews.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>
+    // Initialize sidebar for this page
+    (async function() {
+      await fetch('data/products.json', {cache:'no-store'}).then(r=>r.json()).then(d=>{
+        const ul = document.getElementById('sidebarCategories');
+        if (ul) ul.innerHTML = d.categories.map(c => `<li><a href="compare.html?category=${c.slug}">${c.name}</a></li>`).join('');
+      });
+      const sidebar = document.getElementById('sidebar');
+      const toggle = document.getElementById('sidebarToggle');
+      if (toggle) toggle.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
+        toggle.textContent = sidebar.classList.contains('collapsed') ? '▶' : '◀';
+      });
+    })();
+  </script>
+</body>
+</html>
