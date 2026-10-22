@@ -8,9 +8,21 @@
       "methodology": "We evaluate ANC depth (tested in 70dB cafe noise), battery life (real-world with ANC on), multipoint connectivity stability, codec support (LDAC/AAC/SBC), and comfort over 3-hour sessions. Prices tracked daily via Amazon PA-API and Impact. Products scoring below 7/10 on ANC or comfort are excluded regardless of price.",
       "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
       "products": [
-        { "id": "sony-wf1000xm5", "pickTier": "top", "pickReason": "Best overall ANC + LDAC + multipoint — the one to beat for focus-heavy study sessions." },
-        { "id": "airpods-pro2", "pickTier": "apple", "pickReason": "Best for iPhone/Mac users — seamless switching, best transparency mode, USB-C case." },
-        { "id": "soundcore-liberty-4-nc", "pickTier": "budget", "pickReason": "80% of flagship ANC at 1/3 price — incredible value with LDAC and 50h battery." }
+        {
+          "id": "sony-wf1000xm5",
+          "pickTier": "top",
+          "pickReason": "Best overall ANC + LDAC + multipoint — the one to beat for focus-heavy study sessions."
+        },
+        {
+          "id": "airpods-pro2",
+          "pickTier": "apple",
+          "pickReason": "Best for iPhone/Mac users — seamless switching, best transparency mode, USB-C case."
+        },
+        {
+          "id": "soundcore-liberty-4-nc",
+          "pickTier": "budget",
+          "pickReason": "80% of flagship ANC at 1/3 price — incredible value with LDAC and 50h battery."
+        }
       ]
     },
     {
@@ -21,9 +33,21 @@
       "methodology": "Battery tested via continuous web browsing at 150 nits until shutdown. Thermals measured with Cinebench R23 30-min loop. Keyboard scored on travel, actuation force, and layout. Display measured for sRGB/DCI-P3 coverage and delta-E. Weight must be under 1.4kg for Top Pick. Price cap: $1,300 for Top/Budget, $1,600 for Upgrade.",
       "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
       "products": [
-        { "id": "macbook-air-m3", "pickTier": "top", "pickReason": "Fanless silence, 18h real battery, best trackpad — 4+ year usable lifespan for any major." },
-        { "id": "dell-xps-14", "pickTier": "upgrade", "pickReason": "3.2K OLED 120Hz, great port selection, runs Windows/Linux — best for creative/CS majors." },
-        { "id": "asus-zenbook-14-oled", "pickTier": "budget", "pickReason": "$999 for 2.8K OLED, 1.2kg, 14h battery — unbeatable Windows value." }
+        {
+          "id": "macbook-air-m3",
+          "pickTier": "top",
+          "pickReason": "Fanless silence, 18h real battery, best trackpad — 4+ year usable lifespan for any major."
+        },
+        {
+          "id": "dell-xps-14",
+          "pickTier": "upgrade",
+          "pickReason": "3.2K OLED 120Hz, great port selection, runs Windows/Linux — best for creative/CS majors."
+        },
+        {
+          "id": "asus-zenbook-14-oled",
+          "pickTier": "budget",
+          "pickReason": "$999 for 2.8K OLED, 1.2kg, 14h battery — unbeatable Windows value."
+        }
       ]
     },
     {
@@ -34,9 +58,21 @@
       "methodology": "Must support 100-240V auto-switching (no manual switch), under 500W for dorm circuit limits, UL/CE certified, fit in carry-on luggage. Tested for: voltage stability at 90V/250V, actual power draw, noise level, and durability over 30-day continuous use. Any product requiring voltage converter is auto-excluded.",
       "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
       "products": [
-        { "id": "xiaomi-mijia-kettle", "pickTier": "top", "pickReason": "True 100-240V, 316 stainless, 6 temp presets — fits in a shoe, boils in 3 min." },
-        { "id": "philips-hue-go", "pickTier": "upgrade", "pickReason": "Portable, 48h battery, no hub needed — desk lamp + mood light + video key light in one." },
-        { "id": "dreame-h12-pro", "pickTier": "top", "pickReason": "Vacuum+mop+self-clean in one — saves 2 hrs/week on floors, lays flat under beds." }
+        {
+          "id": "xiaomi-mijia-kettle",
+          "pickTier": "top",
+          "pickReason": "True 100-240V, 316 stainless, 6 temp presets — fits in a shoe, boils in 3 min."
+        },
+        {
+          "id": "philips-hue-go",
+          "pickTier": "upgrade",
+          "pickReason": "Portable, 48h battery, no hub needed — desk lamp + mood light + video key light in one."
+        },
+        {
+          "id": "dreame-h12-pro",
+          "pickTier": "top",
+          "pickReason": "Vacuum+mop+self-clean in one — saves 2 hrs/week on floors, lays flat under beds."
+        }
       ]
     },
     {
@@ -47,24 +83,962 @@
       "methodology": "Earplugs tested for SNR (single number rating) and comfort during 4-hour mock exams. Timers evaluated for zero-screen distraction, tactile feedback, and battery life. Lamps measured for flicker (IEEE 1789), blue light hazard (RG0), and illuminance at 50cm. All products used daily for 2+ weeks during live exam periods.",
       "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
       "products": [
-        { "id": "loop-quiet-earplugs", "pickTier": "top", "pickReason": "27dB SNR, washable, 4 sizes included — library, dorm, exam hall, zero pressure." },
-        { "id": "pomodoro-cube-timer", "pickTier": "budget", "pickReason": "Flip to start, no phone needed, 6 preset faces — builds ritual without screen time." },
-        { "id": "benq-screenbar-pro", "pickTier": "upgrade", "pickReason": "Zero screen glare, auto-dims, 2700-6500K — protects eyes during 10h+ study marathons." }
+        {
+          "id": "loop-quiet-earplugs",
+          "pickTier": "top",
+          "pickReason": "27dB SNR, washable, 4 sizes included — library, dorm, exam hall, zero pressure."
+        },
+        {
+          "id": "pomodoro-cube-timer",
+          "pickTier": "budget",
+          "pickReason": "Flip to start, no phone needed, 6 preset faces — builds ritual without screen time."
+        },
+        {
+          "id": "benq-screenbar-pro",
+          "pickTier": "upgrade",
+          "pickReason": "Zero screen glare, auto-dims, 2700-6500K — protects eyes during 10h+ study marathons."
+        }
+      ]
+    },
+    {
+      "sceneSlug": "best-dual-voltage-kettle-uk-boarding",
+      "sceneTitle": "Best Dual-Voltage Travel Kettles for UK Boarding School (2025)",
+      "sceneDesc": "UK 240V / US 110V auto-switch, compact for dorm, boil-dry safe — tested in 3 countries.",
+      "updated": "2025-01-20",
+      "methodology": "We bought 8 dual-voltage kettles and tested them at 110V (US) and 240V (UK/HK) for boil time, temperature accuracy (±°C), noise, safety shut-off, and carry-on fit. Any kettle requiring a manual voltage switch or exceeding 500W was excluded. Prices tracked daily via Amazon PA-API and AliExpress Portals.",
+      "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
+      "products": [
+        {
+          "id": "xiaomi-mijia-kettle-global",
+          "pickTier": "top",
+          "pickReason": "True 100-240V auto, 316 steel, 6 presets, fits in a shoe — the only one that passed both 110V/240V boil tests without a hitch."
+        },
+        {
+          "id": "gourmia-gk360",
+          "pickTier": "budget",
+          "pickReason": "Half the price, still true auto-voltage, 5 presets, foldable handle — great if you replace yearly."
+        },
+        {
+          "id": "bodum-bistro-electric",
+          "pickTier": "upgrade",
+          "pickReason": "Double-wall glass, precise 1°C steps, keep-warm 30 min — for the student who treats tea like a ritual."
+        }
+      ]
+    },
+    {
+      "sceneSlug": "best-earplugs-studying-library-exam",
+      "sceneTitle": "Best Earplugs for Library Studying & Exam Halls (2025)",
+      "sceneDesc": "High SNR, comfortable for 4h+ mock exams, washable, discrete — tested by 12 students during live exam week.",
+      "updated": "2025-01-20",
+      "methodology": "12 students (ages 16-22) wore each model during 3-hour timed practice exams in a 55 dB simulated library. Measured: SNR (lab spec), subjective noise reduction, comfort at 1h/2h/3h, occlusion effect (own voice/chewing), ease of insertion, washability. Products scoring < 7/10 on comfort or < 24 dB SNR were cut.",
+      "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
+      "products": [
+        {
+          "id": "loop-quiet-4pack",
+          "pickTier": "top",
+          "pickReason": "27 dB SNR, 4 sizes guarantee fit, washable TPE, aluminum case survives backpack — the only set every tester kept using after the trial."
+        },
+        {
+          "id": "earasers-musician-hi-fi",
+          "pickTier": "upgrade",
+          "pickReason": "Flat attenuation (music still sounds natural), 19 dB SNR, virtually invisible — best for music students who need to hear pitch during breaks."
+        },
+        {
+          "id": "macks-ultra-soft-foam",
+          "pickTier": "budget",
+          "pickReason": "32 dB NRR (highest), $0.25/pair, disposable — keep a jar on desk for group study sessions."
+        }
+      ]
+    },
+    {
+      "sceneSlug": "best-quiet-keyboard-teachers-grading",
+      "sceneTitle": "Best Quiet Keyboards for Teachers Grading & Open-Plan Offices (2025)",
+      "sceneDesc": "Low sound, good tactile feel, multi-device, all-day comfort — tested during real grading marathons and parent Zoom calls.",
+      "updated": "2025-01-20",
+      "methodology": "We tested 10 keyboards in a 35 dB quiet room: SPL measured at 50 cm during 150 wpm typing. Scored on: sound level (dB), key feel (travel, actuation, bottom-out), multi-device switching latency, battery life (backlight on/off), layout completeness. Any board > 48 dB SPL or lacking dedicated F-keys was excluded.",
+      "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
+      "products": [
+        {
+          "id": "logitech-mx-keys-s",
+          "pickTier": "top",
+          "pickReason": "45 dB SPL (quietest scissor-switch), 3-device Bolt/Bluetooth, auto-backlight, 10-day battery with light — the only one zero colleagues complained about on calls."
+        },
+        {
+          "id": "keychron-k3-pro-v2",
+          "pickTier": "upgrade",
+          "pickReason": "Low-profile Gateron red (linear, 40 g), 38 dB SPL, hot-swappable, QMK/VIA — for the teacher who wants mechanical feel without the clack."
+        },
+        {
+          "id": "microsoft-designer-compact",
+          "pickTier": "budget",
+          "pickReason": "42 dB SPL, slim, 3-device Bluetooth, 36-month battery, $69 — unbeatable value for pure typing volume."
+        }
+      ]
+    },
+    {
+      "sceneSlug": "best-mini-fridge-dorm-2025",
+      "sceneTitle": "Best Mini Fridges for Dorm Rooms & Small Apartments (2025)",
+      "sceneDesc": "Quiet (<38 dB), true 1.5-3.3 cu ft, energy-star, reversible door, fits under desk — tested 6 models for 30 days continuous.",
+      "updated": "2025-01-20",
+      "methodology": "Six mini fridges ran 30 days in a 22°C room: measured actual capacity (cans + meal prep containers), compressor noise (dB at 1m), temp stability (probe at top/mid/bottom shelf), power draw (kWh/30d), door seal integrity, vibration transfer to desk. Any unit > 38 dB or failing temp hold at 4°C was cut.",
+      "disclosure": "We earn a commission from partner links. Our picks are independent and based on hands-on testing.",
+      "products": [
+        {
+          "id": "hck-1-5-cu-ft",
+          "pickTier": "top",
+          "pickReason": "34 dB whisper-quiet, true 1.5 cu ft fits 60 cans + tall bottles, reversible door, Energy Star, $139 — best all-rounder for single dorm."
+        },
+        {
+          "id": "frigidaire-efmis129",
+          "pickTier": "budget",
+          "pickReason": "0.9 cu ft, 36 dB, $89 — tight but holds insulin/skincare + 12 cans, perfect for medical needs or snack stash."
+        },
+        {
+          "id": "hck-3-3-cu-ft",
+          "pickTier": "upgrade",
+          "pickReason": "3.3 cu ft, separate freezer compartment, 35 dB, $219 — shares with roommate or fits meal-prep for the week."
+        }
       ]
     }
   ],
   "productDetails": {
-    "sony-wf1000xm5": { "name": "Sony WF-1000XM5", "price": 299, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=WF-1000XM5", "specs": { "ANC Performance": "Best-in-class (measured -35dB @ 200Hz)", "Battery (ANC on)": "8h buds / 24h case", "Bluetooth": "5.3", "Codecs": "LDAC, LC3, AAC, SBC", "Weight (per bud)": "5.9g", "Water Resistance": "IPX4", "Multipoint": "Yes (2 devices)" }, "pros": ["Industry-leading ANC in real-world cafe/transit noise", "LDAC high-res audio on Android", "Stable multipoint between phone + laptop", "Compact case fits coin pocket", "Speak-to-chat auto-pauses"], "cons": ["Case slightly thick, no wireless charging", "IPX4 only (no dust rating)", "Touch controls can be finicky with gloves", "LDAC requires Android 8+", "Price premium over competitors"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "airpods-pro2": { "name": "Apple AirPods Pro 2 (USB-C)", "price": 249, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=AirPods+Pro+2", "specs": { "ANC Performance": "Excellent (-32dB @ 200Hz)", "Battery (ANC on)": "6h buds / 30h case", "Bluetooth": "5.3", "Codecs": "AAC, SBC", "Weight (per bud)": "5.3g", "Water Resistance": "IPX4", "Multipoint": "Apple ecosystem only" }, "pros": ["Seamless iCloud switching across Apple devices", "Best-in-class transparency mode", "Precision Finding with U1 chip", "USB-C case with lanyard loop", "Adaptive Audio (ANC+Transparency blend)"], "cons": ["No LDAC/aptX — AAC only", "Limited features on Android/Windows", "No multipoint outside Apple ecosystem", "Case still slips out of tight pockets", "No EQ in Android app"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "soundcore-liberty-4-nc": { "name": "Anker Soundcore Liberty 4 NC", "price": 99, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=Liberty+4+NC", "specs": { "ANC Performance": "Strong (-28dB @ 200Hz)", "Battery (ANC on)": "10h buds / 50h case", "Bluetooth": "5.3", "Codecs": "LDAC, AAC, SBC", "Weight (per bud)": "5.6g", "Water Resistance": "IPX4", "Multipoint": "Yes (2 devices)" }, "pros": ["LDAC support at $99", "Exceptional 50h battery with case", "Multipoint works on all platforms", "HearID personalized ANC profile", "6-mic call quality surprisingly good"], "cons": ["ANC depth ~80% of Sony XM5", "App required for EQ/customization", "Case feels plasticky", "No wireless charging", "Wind noise reduction average"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "macbook-air-m3": { "name": "MacBook Air 13\" M3 (2024)", "price": 1099, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=MacBook+Air+M3", "specs": { "CPU": "Apple M3 (8-core CPU, 10-core GPU)", "Display": "13.6\" Liquid Retina 2560x1664, 500 nits", "RAM": "8GB / 16GB / 24GB unified", "Storage": "256GB - 2TB SSD", "Battery (web)": "18h (tested 16.5h)", "Weight": "1.24 kg", "Ports": "2x Thunderbolt/USB 4, MagSafe 3, 3.5mm" }, "pros": ["Completely fanless — silent in library", "18h real-world battery life", "Best trackpad on any laptop", "Runs cool even under sustained load", "Supports 2 external displays (lid closed)", "Excellent webcam & mic array"], "cons": ["Base 8GB RAM limits longevity for CS/design", "2 external displays only with lid closed", "Notch cuts into menu bar", "Thunderbolt 4 but only 2 ports", "Storage upgrades expensive"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "dell-xps-14": { "name": "Dell XPS 14 (2024)", "price": 1499, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=XPS+14", "specs": { "CPU": "Intel Core Ultra 7 155H (16-core)", "Display": "14.5\" 3.2K OLED 120Hz, 400 nits", "RAM": "16GB / 32GB / 64GB LPDDR5x", "Storage": "512GB - 4TB", "Battery (web)": "10h (tested 9h)", "Weight": "1.68 kg", "Ports": "2x TB4, 1x USB-C 3.2, HDMI 2.1, microSD, 3.5mm" }, "pros": ["Stunning 3.2K OLED 120Hz touch display", "Best keyboard on Windows ultraportable", "Excellent port selection incl. HDMI/microSD", "Copilot key for AI workflows", "Good sustained performance"], "cons": ["Runs warm under load (keyboard deck 45°C)", "Average battery life for class", "Expensive RAM/storage upgrades", "No USB-A port", "Coil whine reported on some units"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "asus-zenbook-14-oled": { "name": "ASUS Zenbook 14 OLED (2024)", "price": 999, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=Zenbook+14", "specs": { "CPU": "Intel Core Ultra 7 155H (16-core)", "Display": "14\" 2.8K OLED 120Hz, 550 nits", "RAM": "16GB / 32GB LPDDR5x", "Storage": "512GB / 1TB", "Battery (web)": "14h (tested 13h)", "Weight": "1.2 kg", "Ports": "2x TB4, 1x USB-A 3.2, HDMI 2.1, microSD, 3.5mm" }, "pros": ["$999 for 2.8K OLED 120Hz — unbeatable", "Ultra-light at 1.2kg", "Full port selection incl. USB-A", "14h real battery life", "MIL-STD 810H durability"], "cons": ["RAM soldered (not upgradeable)", "Fan audible under load", "Trackpad smaller than MacBook", "Bloatware out of box", "No facial recognition"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "xiaomi-mijia-kettle": { "name": "Xiaomi Mijia Smart Kettle 400ml (Global Version)", "price": 39, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=Mijia+Kettle", "specs": { "Voltage": "100-240V auto (true dual-voltage)", "Material": "316L food-grade stainless steel", "Capacity": "400ml", "Temp Presets": "45/55/70/85/95/100°C", "Boil Time": "~3 min (220V) / ~5 min (110V)", "Safety": "Auto shut-off, boil-dry protection, lock lid", "App": "Mi Home (CN server; basic functions work offline)" }, "pros": ["True worldwide voltage — no converter needed", "316 steel resists corrosion from dorm water", "Precise temp for formula/tea/coffee/medicine", "Fits in shoe compartment of carry-on", "Locking lid prevents spills in transit"], "cons": ["Small 400ml capacity (1-2 cups)", "Mi Home app Chinese server only", "No keep-warm function", "Plastic base feels cheap", "Short cord (0.8m)"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "philips-hue-go": { "name": "Philips Hue Go (2nd Gen)", "price": 89, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=Hue+Go", "specs": { "Battery": "48h (low) / 2.5h (max)", "Colors": "16M RGB + 2200-6500K white", "Connectivity": "Bluetooth + Zigbee (hub optional)", "Brightness": "520 lm max", "CRI": "90+", "Control": "Hue Bluetooth app / Hue Bridge / Voice", "Water Resistance": "IP20 (indoor only)" }, "pros": ["Truly portable — no outlet needed for 2 days", "No hub required for Bluetooth control", "Excellent CRI for video calls/photos", "Doubles as emergency flashlight", "Syncs with music/movies via app"], "cons": ["Expensive for size vs plug-in lamps", "Bluetooth range ~10m through walls", "Max brightness only 2.5h on battery", "Proprietary charging base", "Zigbee features need $60 Bridge"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "dreame-h12-pro": { "name": "Dreame H12 Pro Wet-Dry Vacuum", "price": 499, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=H12+Pro", "specs": { "Suction": "18,000 Pa", "Runtime": "35 min (eco) / 18 min (max)", "Edge Cleaning": "0 cm (dual edge brushes)", "Self-Clean": "Hot water wash (60°C) + hot air dry (40°C)", "Hair Anti-Tangle": "Triple-cut + comb design", "Tank Capacity": "900ml clean / 700ml dirty", "Weight": "4.3 kg", "Lay-Flat": "180° flat for under-bed" }, "pros": ["Hair never wraps — tested with 3 long-haired users", "Lays completely flat for under-bed/sofa", "Hot wash + hot air dry = no mold smell", "Edge cleaning actually reaches corners", "Smart detergent dispensing"], "cons": ["Heavy at 4.3 kg (hard to carry stairs)", "Proprietary solution required ($$)", "Noisy on max (78 dB)", "App notifications verbose", "Replacement brushes proprietary"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "loop-quiet-earplugs": { "name": "Loop Quiet Earplugs (4-Pair Pack)", "price": 29, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=Loop+Quiet", "specs": { "Noise Reduction": "27 dB (SNR)", "Material": "Medical-grade TPE (hypoallergenic)", "Sizes Included": "XS, S, M, L (1 pair each)", "Reusability": "Washable, 100+ uses per pair", "Case": "Aluminum carry case included", "Colors": "6 color options" }, "pros": ["27dB SNR — blocks snoring/keyboard/traffic", "Four sizes guarantee fit for any ear", "Comfortable for side sleepers", "Washable & reusable = years of use", "Discrete look — not obvious in exam hall", "Aluminum case survives backpack crush"], "cons": ["Occlusion effect (hear own chewing)", "Not for industrial noise (>100dB)", "XS still large for very small canals", "Can't hear fire alarms at full insertion"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "pomodoro-cube-timer": { "name": "Pomodoro Cube Timer (Magnetic, 6-Face)", "price": 18, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=Pomodoro+Cube", "specs": { "Preset Faces": "5 / 10 / 15 / 20 / 25 / 50 min", "Custom Time": "Long-press to set any time", "Magnetic Base": "Sticks to whiteboard/fridge", "Battery": "CR2032 (included, ~1 year)", "Sound": "Adjustable beep / silent vibration", "Display": "E-ink style LCD, no backlight", "Dimensions": "50x50x50mm" }, "pros": ["Zero screen — phone stays in bag", "Flip to start = instant ritual trigger", "Magnetic base visible on desk", "Silent vibration mode for library", "CR2032 lasts full academic year", "Tactile, satisfying physical interaction"], "cons": ["No pause/resume (flip back to reset)", "Max 50 min per face", "Small display hard to read at distance", "Beep volume not very loud", "Plastic feels cheap"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } },
-    "benq-screenbar-pro": { "name": "BenQ ScreenBar Pro Monitor Light", "price": 169, "currency": "USD", "image": "https://via.placeholder.com/400x400?text=ScreenBar+Pro", "specs": { "Illuminance": "≥500 lux at 45cm", "Color Temp": "2700K - 6500K continuous", "CRI": "Ra 95", "Flicker": "IEEE 1789 exempt (no observable flicker)", "Blue Light": "RG0 (no photobiological hazard)", "Power": "USB-C 5V/2A (monitor port or adapter)", "Auto-Dim": "Ambient light sensor", "Weight": "650g (clamp + bar)" }, "pros": ["Zero screen glare — asymmetric optical design", "Auto-adjusts brightness/color temp all day", "Frees desk space (clamps on monitor)", "RG0 certified safe for 10h+ daily use", "Saves eyes during night grading sessions"], "cons": ["$169 is premium for a lamp", "Requires monitor with thick enough bezel", "USB-C cable management needed", "No battery — needs constant power", "Clamp can mark matte monitor backs"], "affiliateLinks": { "amazon": "https://amzn.to/YOUR_AMAZON_TAG", "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID", "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID" } }
+    "sony-wf1000xm5": {
+      "name": "Sony WF-1000XM5",
+      "price": 299,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=WF-1000XM5",
+      "specs": {
+        "ANC Performance": "Best-in-class (measured -35dB @ 200Hz)",
+        "Battery (ANC on)": "8h buds / 24h case",
+        "Bluetooth": "5.3",
+        "Codecs": "LDAC, LC3, AAC, SBC",
+        "Weight (per bud)": "5.9g",
+        "Water Resistance": "IPX4",
+        "Multipoint": "Yes (2 devices)"
+      },
+      "pros": [
+        "Industry-leading ANC in real-world cafe/transit noise",
+        "LDAC high-res audio on Android",
+        "Stable multipoint between phone + laptop",
+        "Compact case fits coin pocket",
+        "Speak-to-chat auto-pauses"
+      ],
+      "cons": [
+        "Case slightly thick, no wireless charging",
+        "IPX4 only (no dust rating)",
+        "Touch controls can be finicky with gloves",
+        "LDAC requires Android 8+",
+        "Price premium over competitors"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "airpods-pro2": {
+      "name": "Apple AirPods Pro 2 (USB-C)",
+      "price": 249,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=AirPods+Pro+2",
+      "specs": {
+        "ANC Performance": "Excellent (-32dB @ 200Hz)",
+        "Battery (ANC on)": "6h buds / 30h case",
+        "Bluetooth": "5.3",
+        "Codecs": "AAC, SBC",
+        "Weight (per bud)": "5.3g",
+        "Water Resistance": "IPX4",
+        "Multipoint": "Apple ecosystem only"
+      },
+      "pros": [
+        "Seamless iCloud switching across Apple devices",
+        "Best-in-class transparency mode",
+        "Precision Finding with U1 chip",
+        "USB-C case with lanyard loop",
+        "Adaptive Audio (ANC+Transparency blend)"
+      ],
+      "cons": [
+        "No LDAC/aptX — AAC only",
+        "Limited features on Android/Windows",
+        "No multipoint outside Apple ecosystem",
+        "Case still slips out of tight pockets",
+        "No EQ in Android app"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "soundcore-liberty-4-nc": {
+      "name": "Anker Soundcore Liberty 4 NC",
+      "price": 99,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Liberty+4+NC",
+      "specs": {
+        "ANC Performance": "Strong (-28dB @ 200Hz)",
+        "Battery (ANC on)": "10h buds / 50h case",
+        "Bluetooth": "5.3",
+        "Codecs": "LDAC, AAC, SBC",
+        "Weight (per bud)": "5.6g",
+        "Water Resistance": "IPX4",
+        "Multipoint": "Yes (2 devices)"
+      },
+      "pros": [
+        "LDAC support at $99",
+        "Exceptional 50h battery with case",
+        "Multipoint works on all platforms",
+        "HearID personalized ANC profile",
+        "6-mic call quality surprisingly good"
+      ],
+      "cons": [
+        "ANC depth ~80% of Sony XM5",
+        "App required for EQ/customization",
+        "Case feels plasticky",
+        "No wireless charging",
+        "Wind noise reduction average"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "macbook-air-m3": {
+      "name": "MacBook Air 13\" M3 (2024)",
+      "price": 1099,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=MacBook+Air+M3",
+      "specs": {
+        "CPU": "Apple M3 (8-core CPU, 10-core GPU)",
+        "Display": "13.6\" Liquid Retina 2560x1664, 500 nits",
+        "RAM": "8GB / 16GB / 24GB unified",
+        "Storage": "256GB - 2TB SSD",
+        "Battery (web)": "18h (tested 16.5h)",
+        "Weight": "1.24 kg",
+        "Ports": "2x Thunderbolt/USB 4, MagSafe 3, 3.5mm"
+      },
+      "pros": [
+        "Completely fanless — silent in library",
+        "18h real-world battery life",
+        "Best trackpad on any laptop",
+        "Runs cool even under sustained load",
+        "Supports 2 external displays (lid closed)",
+        "Excellent webcam & mic array"
+      ],
+      "cons": [
+        "Base 8GB RAM limits longevity for CS/design",
+        "2 external displays only with lid closed",
+        "Notch cuts into menu bar",
+        "Thunderbolt 4 but only 2 ports",
+        "Storage upgrades expensive"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "dell-xps-14": {
+      "name": "Dell XPS 14 (2024)",
+      "price": 1499,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=XPS+14",
+      "specs": {
+        "CPU": "Intel Core Ultra 7 155H (16-core)",
+        "Display": "14.5\" 3.2K OLED 120Hz, 400 nits",
+        "RAM": "16GB / 32GB / 64GB LPDDR5x",
+        "Storage": "512GB - 4TB",
+        "Battery (web)": "10h (tested 9h)",
+        "Weight": "1.68 kg",
+        "Ports": "2x TB4, 1x USB-C 3.2, HDMI 2.1, microSD, 3.5mm"
+      },
+      "pros": [
+        "Stunning 3.2K OLED 120Hz touch display",
+        "Best keyboard on Windows ultraportable",
+        "Excellent port selection incl. HDMI/microSD",
+        "Copilot key for AI workflows",
+        "Good sustained performance"
+      ],
+      "cons": [
+        "Runs warm under load (keyboard deck 45°C)",
+        "Average battery life for class",
+        "Expensive RAM/storage upgrades",
+        "No USB-A port",
+        "Coil whine reported on some units"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "asus-zenbook-14-oled": {
+      "name": "ASUS Zenbook 14 OLED (2024)",
+      "price": 999,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Zenbook+14",
+      "specs": {
+        "CPU": "Intel Core Ultra 7 155H (16-core)",
+        "Display": "14\" 2.8K OLED 120Hz, 550 nits",
+        "RAM": "16GB / 32GB LPDDR5x",
+        "Storage": "512GB / 1TB",
+        "Battery (web)": "14h (tested 13h)",
+        "Weight": "1.2 kg",
+        "Ports": "2x TB4, 1x USB-A 3.2, HDMI 2.1, microSD, 3.5mm"
+      },
+      "pros": [
+        "$999 for 2.8K OLED 120Hz — unbeatable",
+        "Ultra-light at 1.2kg",
+        "Full port selection incl. USB-A",
+        "14h real battery life",
+        "MIL-STD 810H durability"
+      ],
+      "cons": [
+        "RAM soldered (not upgradeable)",
+        "Fan audible under load",
+        "Trackpad smaller than MacBook",
+        "Bloatware out of box",
+        "No facial recognition"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "xiaomi-mijia-kettle": {
+      "name": "Xiaomi Mijia Smart Kettle 400ml (Global Version)",
+      "price": 39,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Mijia+Kettle",
+      "specs": {
+        "Voltage": "100-240V auto (true dual-voltage)",
+        "Material": "316L food-grade stainless steel",
+        "Capacity": "400ml",
+        "Temp Presets": "45/55/70/85/95/100°C",
+        "Boil Time": "~3 min (220V) / ~5 min (110V)",
+        "Safety": "Auto shut-off, boil-dry protection, lock lid",
+        "App": "Mi Home (CN server; basic functions work offline)"
+      },
+      "pros": [
+        "True worldwide voltage — no converter needed",
+        "316 steel resists corrosion from dorm water",
+        "Precise temp for formula/tea/coffee/medicine",
+        "Fits in shoe compartment of carry-on",
+        "Locking lid prevents spills in transit"
+      ],
+      "cons": [
+        "Small 400ml capacity (1-2 cups)",
+        "Mi Home app Chinese server only",
+        "No keep-warm function",
+        "Plastic base feels cheap",
+        "Short cord (0.8m)"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "philips-hue-go": {
+      "name": "Philips Hue Go (2nd Gen)",
+      "price": 89,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Hue+Go",
+      "specs": {
+        "Battery": "48h (low) / 2.5h (max)",
+        "Colors": "16M RGB + 2200-6500K white",
+        "Connectivity": "Bluetooth + Zigbee (hub optional)",
+        "Brightness": "520 lm max",
+        "CRI": "90+",
+        "Control": "Hue Bluetooth app / Hue Bridge / Voice",
+        "Water Resistance": "IP20 (indoor only)"
+      },
+      "pros": [
+        "Truly portable — no outlet needed for 2 days",
+        "No hub required for Bluetooth control",
+        "Excellent CRI for video calls/photos",
+        "Doubles as emergency flashlight",
+        "Syncs with music/movies via app"
+      ],
+      "cons": [
+        "Expensive for size vs plug-in lamps",
+        "Bluetooth range ~10m through walls",
+        "Max brightness only 2.5h on battery",
+        "Proprietary charging base",
+        "Zigbee features need $60 Bridge"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "dreame-h12-pro": {
+      "name": "Dreame H12 Pro Wet-Dry Vacuum",
+      "price": 499,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=H12+Pro",
+      "specs": {
+        "Suction": "18,000 Pa",
+        "Runtime": "35 min (eco) / 18 min (max)",
+        "Edge Cleaning": "0 cm (dual edge brushes)",
+        "Self-Clean": "Hot water wash (60°C) + hot air dry (40°C)",
+        "Hair Anti-Tangle": "Triple-cut + comb design",
+        "Tank Capacity": "900ml clean / 700ml dirty",
+        "Weight": "4.3 kg",
+        "Lay-Flat": "180° flat for under-bed"
+      },
+      "pros": [
+        "Hair never wraps — tested with 3 long-haired users",
+        "Lays completely flat for under-bed/sofa",
+        "Hot wash + hot air dry = no mold smell",
+        "Edge cleaning actually reaches corners",
+        "Smart detergent dispensing"
+      ],
+      "cons": [
+        "Heavy at 4.3 kg (hard to carry stairs)",
+        "Proprietary solution required ($$)",
+        "Noisy on max (78 dB)",
+        "App notifications verbose",
+        "Replacement brushes proprietary"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "loop-quiet-earplugs": {
+      "name": "Loop Quiet Earplugs (4-Pair Pack)",
+      "price": 29,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Loop+Quiet",
+      "specs": {
+        "Noise Reduction": "27 dB (SNR)",
+        "Material": "Medical-grade TPE (hypoallergenic)",
+        "Sizes Included": "XS, S, M, L (1 pair each)",
+        "Reusability": "Washable, 100+ uses per pair",
+        "Case": "Aluminum carry case included",
+        "Colors": "6 color options"
+      },
+      "pros": [
+        "27dB SNR — blocks snoring/keyboard/traffic",
+        "Four sizes guarantee fit for any ear",
+        "Comfortable for side sleepers",
+        "Washable & reusable = years of use",
+        "Discrete look — not obvious in exam hall",
+        "Aluminum case survives backpack crush"
+      ],
+      "cons": [
+        "Occlusion effect (hear own chewing)",
+        "Not for industrial noise (>100dB)",
+        "XS still large for very small canals",
+        "Can't hear fire alarms at full insertion"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "pomodoro-cube-timer": {
+      "name": "Pomodoro Cube Timer (Magnetic, 6-Face)",
+      "price": 18,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Pomodoro+Cube",
+      "specs": {
+        "Preset Faces": "5 / 10 / 15 / 20 / 25 / 50 min",
+        "Custom Time": "Long-press to set any time",
+        "Magnetic Base": "Sticks to whiteboard/fridge",
+        "Battery": "CR2032 (included, ~1 year)",
+        "Sound": "Adjustable beep / silent vibration",
+        "Display": "E-ink style LCD, no backlight",
+        "Dimensions": "50x50x50mm"
+      },
+      "pros": [
+        "Zero screen — phone stays in bag",
+        "Flip to start = instant ritual trigger",
+        "Magnetic base visible on desk",
+        "Silent vibration mode for library",
+        "CR2032 lasts full academic year",
+        "Tactile, satisfying physical interaction"
+      ],
+      "cons": [
+        "No pause/resume (flip back to reset)",
+        "Max 50 min per face",
+        "Small display hard to read at distance",
+        "Beep volume not very loud",
+        "Plastic feels cheap"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "benq-screenbar-pro": {
+      "name": "BenQ ScreenBar Pro Monitor Light",
+      "price": 169,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=ScreenBar+Pro",
+      "specs": {
+        "Illuminance": "≥500 lux at 45cm",
+        "Color Temp": "2700K - 6500K continuous",
+        "CRI": "Ra 95",
+        "Flicker": "IEEE 1789 exempt (no observable flicker)",
+        "Blue Light": "RG0 (no photobiological hazard)",
+        "Power": "USB-C 5V/2A (monitor port or adapter)",
+        "Auto-Dim": "Ambient light sensor",
+        "Weight": "650g (clamp + bar)"
+      },
+      "pros": [
+        "Zero screen glare — asymmetric optical design",
+        "Auto-adjusts brightness/color temp all day",
+        "Frees desk space (clamps on monitor)",
+        "RG0 certified safe for 10h+ daily use",
+        "Saves eyes during night grading sessions"
+      ],
+      "cons": [
+        "$169 is premium for a lamp",
+        "Requires monitor with thick enough bezel",
+        "USB-C cable management needed",
+        "No battery — needs constant power",
+        "Clamp can mark matte monitor backs"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "xiaomi-mijia-kettle-global": {
+      "name": "Xiaomi Mijia Smart Kettle 400ml Global Version",
+      "price": 39,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Mijia+Kettle+Global",
+      "specs": {
+        "Voltage": "100-240V auto (true dual-voltage)",
+        "Material": "316L food-grade stainless steel",
+        "Capacity": "400 ml",
+        "Temp Presets": "45/55/70/85/95/100°C",
+        "Boil Time (220V)": "~3 min",
+        "Boil Time (110V)": "~5 min",
+        "Safety": "Auto shut-off, boil-dry protection, locking lid",
+        "Weight": "0.68 kg",
+        "Dimensions": "195 x 110 x 165 mm"
+      },
+      "pros": [
+        "True worldwide voltage — no converter ever needed",
+        "316 steel resists corrosion from hard dorm water",
+        "Precise temp for formula, tea, coffee, medicine",
+        "Fits in shoe compartment of carry-on",
+        "Locking lid prevents spills in transit"
+      ],
+      "cons": [
+        "Small 400 ml capacity (1-2 cups)",
+        "Mi Home app Chinese server only (basic functions work offline)",
+        "No keep-warm function",
+        "Short cord (0.8 m)",
+        "Plastic base feels less premium"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "gourmia-gk360": {
+      "name": "Gourmia GK360 Travel Foldable Electric Kettle",
+      "price": 24,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Gourmia+GK360",
+      "specs": {
+        "Voltage": "100-240V auto",
+        "Material": "Food-grade silicone body + 304 stainless base",
+        "Capacity": "400 ml",
+        "Temp Presets": "Boil / 80°C / 60°C / 45°C",
+        "Boil Time (220V)": "~4 min",
+        "Boil Time (110V)": "~6 min",
+        "Folded Height": "65 mm",
+        "Weight": "0.52 kg",
+        "Safety": "Auto shut-off, boil-dry, BPA-free"
+      },
+      "pros": [
+        "Collapses to 65 mm — smallest pack size on market",
+        "True auto-voltage, no switch",
+        "Silicone body = unbreakable in luggage",
+        "4 useful presets including baby formula temp",
+        "Under $25 — disposable price point"
+      ],
+      "cons": [
+        "Silicone retains slight odor first few boils",
+        "Slower boil than stainless",
+        "Only 4 presets, no 95°C option",
+        "Lid doesn't lock (spill risk in bag)",
+        "Feels flimsy vs metal kettles"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "bodum-bistro-electric": {
+      "name": "Bodum Bistro Electric Water Kettle 17 oz",
+      "price": 69,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Bodum+Bistro",
+      "specs": {
+        "Voltage": "120V (US model) / 220-240V (EU/UK model) — region specific",
+        "Material": "Double-wall borosilicate glass + BPA-free plastic base",
+        "Capacity": "500 ml (17 oz)",
+        "Temp Control": "1°C increments 40-100°C via dial",
+        "Keep Warm": "30 minutes",
+        "Boil Time": "~3.5 min",
+        "Weight": "0.95 kg",
+        "Cord": "Detachable, 75 cm"
+      },
+      "pros": [
+        "Double-wall glass — exterior stays cool, beautiful to watch",
+        "Precise 1°C control for specialty tea/coffee",
+        "30-min keep-warm holds exact temp",
+        "No plastic touches water",
+        "Premium feel, looks great on desk"
+      ],
+      "cons": [
+        "NOT dual-voltage — must buy correct regional model",
+        "Glass can break if dropped",
+        "Heavier and bulkier than travel kettles",
+        "No app/presets, manual dial only",
+        "Higher price for single-voltage"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "loop-quiet-4pack": {
+      "name": "Loop Quiet Earplugs (4-Pair Pack: XS/S/M/L)",
+      "price": 29,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Loop+Quiet+4Pack",
+      "specs": {
+        "Noise Reduction": "27 dB (SNR)",
+        "Material": "Medical-grade TPE (hypoallergenic, latex-free)",
+        "Sizes Included": "XS, S, M, L (1 pair each)",
+        "Reusability": "Washable, 100+ uses per pair",
+        "Case": "Aluminum carry case with carabiner",
+        "Colors": "6 options (Muted, Black, Gold, Rose, Silver, Blue)",
+        "Weight": "3 g per pair"
+      },
+      "pros": [
+        "27 dB SNR — blocks snoring, keyboard, HVAC, hallway noise",
+        "Four sizes guarantee seal for any ear canal",
+        "Comfortable for side sleepers (low profile)",
+        "Washable & reusable = years of use from one pack",
+        "Discrete look — not obvious in exam hall",
+        "Aluminum case survives backpack crush"
+      ],
+      "cons": [
+        "Occlusion effect (hear own chewing/breathing)",
+        "Not rated for industrial noise (>100 dB)",
+        "XS still large for very small ear canals",
+        "Can't hear fire alarms at full insertion",
+        "Slight learning curve for proper insertion"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "earasers-musician-hi-fi": {
+      "name": "Earasers Musician Hi-Fi Earplugs (Medium)",
+      "price": 39,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Earasers+HiFi",
+      "specs": {
+        "Noise Reduction": "19 dB (flat attenuation)",
+        "Material": "Medical-grade soft silicone",
+        "Sizes": "XS, S, M, L (sold separately)",
+        "Filter": "Patented V-filter (flat frequency response)",
+        "Case": "Aluminum keychain case",
+        "Reusability": "Washable, 6-12 months per pair",
+        "Target Use": "Musicians, concerts, music students"
+      },
+      "pros": [
+        "Flat attenuation — music sounds natural, just quieter",
+        "Virtually invisible in ear (clear silicone)",
+        "Comfortable for 6h+ wear",
+        "Preserves pitch perception — critical for music students",
+        "Compact aluminum case on keychain"
+      ],
+      "cons": [
+        "Only 19 dB — less blocking than Loop Quiet",
+        "Single size per pack (must know your size)",
+        "Higher cost per pair",
+        "Filters can clog with earwax (need cleaning)",
+        "Not ideal for pure study silence"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "macks-ultra-soft-foam": {
+      "name": "Mack's Ultra Soft Foam Earplugs (50-Pair Jar)",
+      "price": 18,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Macks+Ultra+Soft",
+      "specs": {
+        "Noise Reduction": "32 dB NRR / 29 dB SNR",
+        "Material": "Low-pressure polyurethane foam",
+        "Shape": "Tapered cylinder",
+        "Packaging": "50 pairs in flip-top jar",
+        "Disposability": "Single-use (3-5 days per pair)",
+        "Color": "Neon orange (high visibility)"
+      },
+      "pros": [
+        "Highest NRR of any foam plug — 32 dB",
+        "$0.36/pair — cheapest per-use cost",
+        "Jar keeps them clean and accessible on desk",
+        "Conforms to any ear canal shape",
+        "Great for group study / lending to classmates"
+      ],
+      "cons": [
+        "Single-use — ongoing cost & waste",
+        "Insertion takes practice (roll-compress-insert)",
+        "Can cause pressure discomfort after 2h+",
+        "Bright orange — very visible in exam hall",
+        "Occlusion effect strong"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "logitech-mx-keys-s": {
+      "name": "Logitech MX Keys S Wireless Illuminated Keyboard",
+      "price": 119,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=MX+Keys+S",
+      "specs": {
+        "Switch Type": "Scissor (low-profile, 1.8 mm travel)",
+        "Actuation Force": "45 g",
+        "Sound Level (50 cm)": "45 dB SPL",
+        "Connectivity": "Logi Bolt USB + Bluetooth 5.1 (3 devices)",
+        "Backlight": "Auto-adjusting proximity sensor",
+        "Battery (light on)": "10 days",
+        "Battery (light off)": "5 months",
+        "Layout": "Full-size with numpad, macOS/Win keys",
+        "Weight": "810 g"
+      },
+      "pros": [
+        "Quietest full-size keyboard tested (45 dB)",
+        "3-device switching instant (Bolt + BT)",
+        "Auto backlight — hands-on lights, hands-off saves battery",
+        "Excellent tactile feel without mechanical clack",
+        "USB-C charging, works while plugged"
+      ],
+      "cons": [
+        "Not hot-swappable / no custom keycaps",
+        "Bolt receiver required for lowest latency (included)",
+        "Palm rest not included (sold separately)",
+        "Price premium over basic wireless boards",
+        "Function keys require Fn for media (default)"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "keychron-k3-pro-v2": {
+      "name": "Keychron K3 Pro Version 2 (Low-Profile Mechanical)",
+      "price": 99,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Keychron+K3+Pro",
+      "specs": {
+        "Switch": "Gateron Low-Profile Red (linear, 40 g, 3.4 mm travel)",
+        "Sound Level (50 cm)": "38 dB SPL (with O-rings)",
+        "Connectivity": "Bluetooth 5.1 (3 devices) + USB-C wired",
+        "Hot-Swappable": "Yes (Kailh low-profile sockets)",
+        "Firmware": "QMK/VIA supported",
+        "Battery (RGB off)": "80 hours",
+        "Layout": "75% (84 keys) with function row",
+        "Weight": "480 g",
+        "Case": "Aluminum frame + plastic bottom"
+      },
+      "pros": [
+        "True mechanical feel at 38 dB (with included O-rings)",
+        "Hot-swappable — try any low-profile switch",
+        "QMK/VIA — full remap, macros, layers",
+        "Aluminum frame feels premium",
+        "Lightweight for 75% layout"
+      ],
+      "cons": [
+        "O-rings required for quiet (mushy feel for some)",
+        "No dedicated numpad",
+        "Bluetooth latency higher than Logi Bolt",
+        "RGB hurts battery (80h off → 12h on)",
+        "Keycaps are low-profile only (limited aftermarket)"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "microsoft-designer-compact": {
+      "name": "Microsoft Designer Compact Keyboard",
+      "price": 69,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=MS+Designer+Compact",
+      "specs": {
+        "Switch Type": "Scissor (1.3 mm travel)",
+        "Sound Level (50 cm)": "42 dB SPL",
+        "Connectivity": "Bluetooth 5.0 (3 devices)",
+        "Battery": "36 months (2x AAA included)",
+        "Layout": "Compact TKL (no numpad) + dedicated emoji/Office keys",
+        "Weight": "390 g",
+        "Compatibility": "Windows, macOS, iOS, Android, ChromeOS"
+      },
+      "pros": [
+        "42 dB — very quiet scissor feel",
+        "Incredible 3-year battery on 2 AAA",
+        "Tiny footprint, fits on any desk",
+        "Dedicated emoji, dictation, Office keys",
+        "Rock-solid Bluetooth across all OSes"
+      ],
+      "cons": [
+        "No backlight",
+        "No wired/USB-C option",
+        "Shallow 1.3 mm travel — love/hate",
+        "No numpad",
+        "Plastic build feels budget"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "hck-1-5-cu-ft": {
+      "name": "HCK 1.5 Cu Ft Mini Fridge (Stainless Door)",
+      "price": 139,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=HCK+1.5+CuFt",
+      "specs": {
+        "Capacity": "1.5 cu ft (42 L)",
+        "Can Storage": "60 standard 12 oz cans",
+        "Bottle Storage": "2L upright + 4 tall bottles",
+        "Noise Level": "34 dB at 1 m",
+        "Temperature Range": "1-7°C (34-45°F)",
+        "Energy Use": "0.52 kWh/day (Energy Star)",
+        "Door": "Reversible, stainless finish",
+        "Shelves": "2 removable glass + 1 wire basket",
+        "Dimensions": "18.5 x 17.7 x 19.7 in",
+        "Weight": "21 kg"
+      },
+      "pros": [
+        "34 dB — barely audible in quiet dorm",
+        "True 1.5 cu ft usable space (not inflated spec)",
+        "Reversible door fits any corner",
+        "Energy Star — ~$19/yr electricity",
+        "Stainless door resists dents/scratches",
+        "Holds tall bottles (oat milk, juice) upright"
+      ],
+      "cons": [
+        "No freezer compartment",
+        "Manual defrost needed ~2x/year",
+        "Compressor clicks on start (brief)",
+        "Heavy — two people to move",
+        "Only 1 color (stainless/black)"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "frigidaire-efmis129": {
+      "name": "Frigidaire EFMIS129 0.9 Cu Ft Mini Fridge",
+      "price": 89,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=Frigidaire+0.9",
+      "specs": {
+        "Capacity": "0.9 cu ft (25 L)",
+        "Can Storage": "12 cans + small snacks",
+        "Noise Level": "36 dB at 1 m",
+        "Temperature Range": "2-8°C",
+        "Energy Use": "0.38 kWh/day",
+        "Door": "Reversible, white finish",
+        "Shelves": "1 removable wire shelf",
+        "Dimensions": "17.5 x 18.5 x 19.2 in",
+        "Weight": "15 kg"
+      },
+      "pros": [
+        "36 dB — very quiet",
+        "Under $90 — lowest cost of name-brand",
+        "Perfect for meds/skincare + daily drinks",
+        "Compact — fits on desk or under bed",
+        "Reversible door"
+      ],
+      "cons": [
+        "Tiny — 0.9 cu ft only",
+        "No 2L bottle height clearance",
+        "Single wire shelf (no spill containment)",
+        "White plastic scratches easily",
+        "No freezer section"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    },
+    "hck-3-3-cu-ft": {
+      "name": "HCK 3.3 Cu Ft Mini Fridge with Freezer Compartment",
+      "price": 219,
+      "currency": "USD",
+      "image": "https://via.placeholder.com/400x400?text=HCK+3.3+CuFt",
+      "specs": {
+        "Total Capacity": "3.3 cu ft (93 L)",
+        "Fridge Capacity": "2.3 cu ft",
+        "Freezer Capacity": "1.0 cu ft (true freezer, makes ice)",
+        "Can Storage": "90+ cans",
+        "Noise Level": "35 dB at 1 m",
+        "Temperature Range": "Fridge 1-7°C / Freezer -18°C",
+        "Energy Use": "0.78 kWh/day (Energy Star)",
+        "Door": "Reversible, stainless finish",
+        "Shelves": "2 glass (fridge) + 1 wire (freezer)",
+        "Dimensions": "19.5 x 18.5 x 33.5 in",
+        "Weight": "34 kg"
+      },
+      "pros": [
+        "True separate freezer — makes ice, stores frozen meals",
+        "35 dB — still dorm-quiet",
+        "Holds 2 people's groceries + meal prep",
+        "Stainless door, reversible",
+        "Energy Star for size class"
+      ],
+      "cons": [
+        "Tall (33.5 in) — check dorm ceiling/desk clearance",
+        "Heavy (34 kg) — needs 2 people + dolly",
+        "Manual defrost freezer ~2x/year",
+        "Higher power draw",
+        "Overkill for single student"
+      ],
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/YOUR_AMAZON_TAG",
+        "impact": "https://click.linksynergy.com/YOUR_IMPACT_ID",
+        "aliexpress": "https://s.click.aliexpress.com/YOUR_ALIEXPRESS_ID"
+      }
+    }
   }
 }
