@@ -194,3 +194,30 @@ document.addEventListener('click', e=>{
   const a=e.target.closest('a[href^="#"]');
   if(a){e.preventDefault();document.querySelector(a.getAttribute('href'))?.scrollIntoView({behavior:'smooth'});}
 });
+
+// ===== Scenes Index (Homepage) =====
+async function renderScenesIndex() {
+  const grid = $('#scenesGrid');
+  if (!grid) return;
+  try {
+    const res = await fetch('data/affiliate-picks.json', { cache: 'no-store' });
+    const data = await res.json();
+    grid.innerHTML = data.picks.map(s => `
+      <a href="scene.html?slug=${s.sceneSlug}" class="scene-card">
+        <h4>${s.sceneTitle}</h4>
+        <p>${s.sceneDesc}</p>
+        <span class="updated">Updated ${s.updated}</span>
+      </a>
+    `).join('');
+  } catch (err) {
+    console.error('Failed to load scenes index:', err);
+    grid.innerHTML = '<p style="color:var(--text-muted);text-align:center;grid-column:1/-1">Unable to load picks.</p>';
+  }
+}
+
+// Hook into existing initHomePage
+const originalInitHomePage = window.initHomePage;
+window.initHomePage = async function() {
+  await originalInitHomePage();
+  await renderScenesIndex();
+};

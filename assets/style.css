@@ -256,3 +256,60 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   .pros-cons { grid-template-columns: 1fr; }
   .product-info { padding: 1.5rem 1rem; }
 }
+
+/* === Scene Picks Page === */
+.scene-main { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+.scene-hero { border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+.scene-hero .lead { color: var(--text-muted); font-size: 1.1rem; line-height: 1.7; }
+.scene-hero .meta { font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem; }
+.scene-hero .meta a { color: var(--primary); font-weight: 500; }
+.disclosure { font-size: 0.85rem; color: var(--text-muted); background: var(--primary-bg); padding: 0.75rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--primary-light); margin-top: 1rem; }
+
+.picks-grid { display: grid; gap: 1.5rem; }
+.pick-card { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; position: relative; background: var(--card-bg); transition: box-shadow var(--transition), border-color var(--transition); }
+.pick-card:hover { box-shadow: var(--shadow-md); border-color: var(--primary-light); }
+.pick-badge { position: absolute; top: -10px; left: 1rem; background: var(--text); color: var(--card-bg); font-size: 0.7rem; padding: 0.2rem 0.6rem; border-radius: 999px; font-weight: 600; white-space: nowrap; }
+.pick-card img { width: 100%; aspect-ratio: 1/1; object-fit: contain; background: var(--bg); border-radius: var(--radius-sm); margin-bottom: 1rem; }
+.pick-card h3 { font-size: 1.1rem; font-weight: 600; margin: 0.5rem 0; color: var(--text); }
+.pick-reason { color: var(--text); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.8rem; }
+.price-row { font-size: 1.3rem; font-weight: 700; color: var(--text); margin: 0.5rem 0; }
+.specs-mini { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.3rem 0.8rem; font-size: 0.8rem; color: var(--text-muted); margin: 0.8rem 0; padding: 0; list-style: none; }
+.specs-mini li { display: flex; gap: 0.5rem; }
+.specs-mini strong { color: var(--text); flex-shrink: 0; }
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.8rem; margin: 1rem 0; }
+.pros li { color: #166534; padding-left: 1.25em; position: relative; margin-bottom: 0.25rem; }
+.pros li::before { content: '✓'; position: absolute; left: 0; color: #27ae60; font-weight: bold; }
+.cons li { color: #991b1b; padding-left: 1.25em; position: relative; margin-bottom: 0.25rem; }
+.cons li::before { content: '✗'; position: absolute; left: 0; color: #e74c3c; font-weight: bold; }
+.buy-btns { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+.btn { display: inline-block; padding: 0.6rem 1rem; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600; text-decoration: none; transition: all var(--transition); }
+.btn-primary { background: var(--primary); color: #fff; }
+.btn-primary:hover { background: var(--primary-dark); color: #fff; text-decoration: none; }
+.btn-secondary { background: var(--card-bg); color: var(--primary); border: 1px solid var(--primary); }
+.btn-secondary:hover { background: var(--primary); color: #fff; text-decoration: none; }
+.btn-outline { background: var(--card-bg); color: var(--text-muted); border: 1px solid var(--border); }
+.btn-outline:hover { border-color: var(--primary); color: var(--primary); text-decoration: none; }
+
+.methodology { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--text-muted); line-height: 1.8; }
+.methodology h2 { color: var(--text); margin-bottom: 1rem; font-size: 1.25rem; }
+.methodology .disclosure { margin-top: 1.5rem; font-size: 0.8rem; }
+
+/* Scenes Index on Homepage */
+.scenes-index { margin: 3rem 0; }
+.scenes-index h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: var(--text); }
+.scenes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.scene-card { display: block; padding: 1.5rem; border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; color: inherit; transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition); background: var(--card-bg); }
+.scene-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--primary-light); text-decoration: none; }
+.scene-card h4 { margin: 0 0 0.5rem; font-size: 1.05rem; font-weight: 600; color: var(--text); }
+.scene-card p { margin: 0 0 0.8rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; }
+.scene-card .updated { display: block; font-size: 0.75rem; color: var(--text-muted); }
+
+/* Responsive for Scene Page */
+@media (max-width: 600px) {
+  .scene-main { padding: 1.5rem 1rem; }
+  .specs-mini { grid-template-columns: 1fr; }
+  .pros-cons { grid-template-columns: 1fr; }
+  .pick-badge { left: 0.5rem; font-size: 0.65rem; padding: 0.15rem 0.5rem; }
+  .buy-btns { flex-direction: column; }
+  .buy-btns .btn { width: 100%; text-align: center; }
+}
